@@ -1,0 +1,164 @@
+.about-section {
+  padding: 100px 0;
+  background: #1a1a1a;
+  color: white;
+}
+
+.about-header {
+  margin-bottom: 3rem;
+}
+
+.section-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #999;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.section-title-large {
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: white;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.about-content-new {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.about-intro {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ccc;
+  margin: 0;
+}
+
+.about-image-secondary {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+.about-image-secondary::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(135deg, #ff6b35 0%, #ffa600 100%);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.about-image-secondary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  filter: grayscale(30%);
+}
+
+.about-right {
+  padding-top: 2rem;
+}
+
+.stats-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border-left: 4px solid #ff6b35;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateX(10px);
+}
+
+.stat-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 107, 53, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #ff6b35;
+  flex-shrink: 0;
+}
+
+.stat-content h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+  margin: 0 0 0.25rem 0;
+  letter-spacing: -1px;
+}
+
+.stat-content p {
+  font-size: 1rem;
+  color: #999;
+  margin: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 60px 0;
+  }
+
+  .section-title-large {
+    font-size: 2.5rem;
+  }
+
+  .about-content-new {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-image-secondary {
+    max-width: 100%;
+  }
+
+  .stat-item {
+    padding: 1rem;
+  }
+
+  .stat-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stat-content h3 {
+    font-size: 2rem;
+  }
+}
