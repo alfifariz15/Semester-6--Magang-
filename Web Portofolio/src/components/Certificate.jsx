@@ -102,7 +102,7 @@ function Certificate() {
         <div className="section-header">
           <h2 className="section-title">Certificates & Achievements</h2>
           <p className="section-subtitle">
-            Sertifikasi dan pencapaian yang pernah saya raih
+            Certifications and achievements I have earned
           </p>
         </div>
 

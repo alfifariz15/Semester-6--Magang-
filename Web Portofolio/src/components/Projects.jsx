@@ -138,7 +138,7 @@ function Projects() {
         <div className="section-header">
           <h2 className="section-title">My Projects</h2>
           <p className="section-subtitle">
-            Beberapa project backend yang pernah saya kerjakan
+            Some backend projects I have worked on
           </p>
         </div>
         <div className="projects-grid">

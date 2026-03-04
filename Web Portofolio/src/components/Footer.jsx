@@ -9,7 +9,7 @@ function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Hubungi Saya</h3>
+            <h3>Contact Me</h3>
             <div className="contact-links">
               <a href="mailto:muhammadalfifariz@gmail.com">📧 muhammadalfifariz@gmail.com</a>
               <a href="tel:+6283173668969">📱 +62 831 7366 8969</a>

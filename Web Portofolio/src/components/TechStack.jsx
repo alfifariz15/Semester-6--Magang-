@@ -41,7 +41,7 @@ function TechStack() {
         <div className="section-header">
           <h2 className="section-title">Tech Stack</h2>
           <p className="section-subtitle">
-            Tools dan teknologi yang saya kuasai
+            Tools and technologies I am proficient in
           </p>
         </div>
         <div className="tech-grid">
