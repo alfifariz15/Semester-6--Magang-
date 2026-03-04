@@ -36,7 +36,7 @@ function Hero() {
         <div className="hero-image">
           <div className="image-glow"></div>
           <div className="image-frame">
-            <img src="/images/alfi.JPG" alt="Muhammad Alfi Fariz" />
+            <img src="/images/fix.JPG" alt="Muhammad Alfi Fariz" />
             <div className="image-overlay"></div>
           </div>
           <div className="floating-badge badge-1">

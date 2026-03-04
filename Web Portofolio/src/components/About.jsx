@@ -39,8 +39,8 @@ function About() {
               <div className="stat-item">
                 <div className="stat-icon">✓</div>
                 <div className="stat-content">
-                  <h3>15+</h3>
-                  <p>Happy Clients</p>
+                  <h3>7+</h3>
+                  <p>Certificates and Achievements</p>
                 </div>
               </div>
             </div>

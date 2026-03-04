@@ -18,9 +18,10 @@ function Navbar() {
           
           <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
             <a href="#home" onClick={() => setIsOpen(false)}>Home</a>
-            <a href="#about" onClick={() => setIsOpen(false)}>About Us</a>
-            <a href="#techstack" onClick={() => setIsOpen(false)}>TechStack</a>
-            <a href="#projects" onClick={() => setIsOpen(false)}>Project</a>
+            <a href="#about" onClick={() => setIsOpen(false)}>About</a>
+            <a href="#techstack" onClick={() => setIsOpen(false)}>Tech Stack</a>
+            <a href="#projects" onClick={() => setIsOpen(false)}>Projects</a>
+            <a href="#certificates" onClick={() => setIsOpen(false)}>Certificates</a>
           </div>
 
           <div className="hamburger" onClick={toggleMenu}>

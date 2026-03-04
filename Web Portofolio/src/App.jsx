@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import TechStack from './components/TechStack'
 import Projects from './components/Projects'
+import Certificate from './components/Certificate'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <TechStack />
       <Projects />
+      <Certificate />
       <Footer />
     </div>
   )
