@@ -49,7 +49,7 @@ function Certificate() {
     {
       title: 'BEM Kemakom FPMIPA UPI 2024',
       issuer: 'Divisi Penyaluran Minat & Bakat (DPMB) - Staff Biro Olahraga',
-      date: 'January - March 2024',
+      date: 'January - December 2024',
       credentialId: '071/BEM-KEMAKOM/I/2025',
       image: '/images/sertif/bem.png',
       description: 'Becoming a provider of interests and talents for computer science students & computer science education.',
