@@ -29,9 +29,11 @@ function Footer() {
             <h3>Quick Links</h3>
             <div className="quick-links">
               <a href="#home">Home</a>
-              <a href="#about">Tentang</a>
+              <a href="#about">About</a>
+              <a href="#experience">Experience</a>
               <a href="#techstack">Tech Stack</a>
-              <a href="#projects">Projek</a>
+              <a href="#projects">Projects</a>
+              <a href="#certificates">Certificates</a>
             </div>
           </div>
         </div>
