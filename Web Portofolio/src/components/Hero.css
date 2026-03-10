@@ -443,42 +443,60 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 50px 5%;
+    padding: 40px 5%;
+    min-height: 100vh;
   }
   
   .hero-container {
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    order: 1;
+  }
+  
+  .hero-image {
+    order: 2;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
   }
   
   .hero-main-text {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    line-height: 1.1;
     text-align: center;
+    letter-spacing: -1px;
   }
   
   .hero-subtitle {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  
+  .text-badge {
+    margin: 0 auto 30px;
   }
   
   .hero-buttons {
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
   }
   
-  .text-badge {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .hero-image {
-    flex: 0 0 auto;
-    width: 100%;
-    max-width: 400px;
+  .hero-btn {
+    padding: 14px 28px;
+    font-size: 0.95rem;
   }
   
   .image-frame {
-    height: 500px;
+    height: 350px;
+    width: 280px;
+    margin: 0 auto;
   }
   
   .floating-badge {
@@ -488,24 +506,62 @@
   .scroll-indicator {
     display: none;
   }
+  
+  .gradient-orb {
+    filter: blur(60px);
+    opacity: 0.2;
+  }
+  
+  .orb-1 {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .orb-2 {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .orb-3 {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 480px) {
+  .hero {
+    padding: 30px 3%;
+  }
+  
   .hero-main-text {
-    font-size: 3rem;
-    letter-spacing: -2px;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
   }
   
   .hero-subtitle {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .text-badge {
+    font-size: 0.8rem;
+    padding: 8px 18px;
   }
   
   .image-frame {
-    height: 400px;
+    height: 300px;
+    width: 240px;
   }
   
   .hero-btn {
     padding: 12px 24px;
     font-size: 0.9rem;
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .hero-buttons {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 }

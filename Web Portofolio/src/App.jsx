@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import Certificate from './components/Certificate'
 import Footer from './components/Footer'
 import './App.css'
+import './components/MobileOptimization.css'
 
 function App() {
   return (
