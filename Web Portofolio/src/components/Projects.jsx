@@ -59,9 +59,9 @@ function Projects() {
       gradient: 'linear-gradient(135deg, #b113a1ff 0%, #06a2f1ff 100%)',
       link: '#',
       screenshots: [
-        '/images/project-placeholder.jpg',
-        '/images/project-placeholder.jpg',
-        '/images/project-placeholder.jpg'
+        '/images/deviota/dev1.png',
+        '/images/deviota/dev3.jpg', 
+        '/images/deviota/dev4.jpg'
       ],
       features: [
         'Real-time stock monitoring',
